@@ -11,7 +11,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             @guest
                 <a class="navbar-brand" href="/">Tweet</a>
@@ -67,7 +67,7 @@
 
     <div class="container">
         @if (session('success'))
-            <div class="alert alert-success w-100">
+            <div class="msg-success alert alert-success">
                 {{ session('success') }}
             </div>
         @endif

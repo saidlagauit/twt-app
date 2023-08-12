@@ -11992,3 +11992,13 @@ img {
     width: 100%;
   }
 }
+
+.msg-success {
+  position: absolute;
+  right: 2rem;
+}
+@media (max-width: 575.98px) {
+  .msg-success {
+    right: 0.2rem;
+  }
+}
