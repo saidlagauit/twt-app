@@ -63,7 +63,3 @@ php artisan serve
 - Create new articles and publish them.
 - Interact with articles by posting comments.
 - Manage your articles by editing or deleting them.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or would like to enhance the application, feel free to submit a pull request.
