@@ -11984,18 +11984,15 @@ body {
   font-size: 1.3rem;
 }
 
-img {
-  width: auto;
-}
-@media (max-width: 575.98px) {
-  img {
-    width: 100%;
-  }
+.single-page img {
+  width: 100%;
 }
 
 .msg-success {
   position: absolute;
+  margin-top: 0.2rem;
   right: 2rem;
+  z-index: 600;
 }
 @media (max-width: 575.98px) {
   .msg-success {
