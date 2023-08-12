@@ -11980,3 +11980,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-size: 1.3rem;
+}
+
+img {
+  width: auto;
+}
+@media (max-width: 575.98px) {
+  img {
+    width: 100%;
+  }
+}

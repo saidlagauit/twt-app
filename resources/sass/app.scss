@@ -1,3 +1,13 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
+body {
+  font-size: 1.3rem;
+}
+
+img {
+  width: auto;
+  @media (max-width: 575.98px) {
+    width: 100%;
+  }
+}

@@ -2064,10 +2064,6 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 var simplemde = new SimpleMDE({
   element: document.getElementById("content")
 });
-$(".btn-link").on("click", function (e) {
-  e.preventDefault();
-  $(this).next(".reply-form").toggle();
-});
 
 /***/ }),
 
